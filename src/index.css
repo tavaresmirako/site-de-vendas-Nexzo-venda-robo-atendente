@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 160 20% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 160 15% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 160 15% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 160 20% 4%;
+
+    --secondary: 160 15% 12%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 160 10% 15%;
+    --muted-foreground: 160 5% 60%;
+
+    --accent: 160 84% 39%;
+    --accent-foreground: 160 20% 4%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 160 10% 20%;
+    --input: 160 10% 20%;
+    --ring: 160 84% 39%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 160 15% 6%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 160 84% 39%;
+    --sidebar-primary-foreground: 160 20% 4%;
+    --sidebar-accent: 160 10% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 160 10% 20%;
+    --sidebar-ring: 160 84% 39%;
+  }
+
+  .dark {
+    --background: 160 20% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 160 15% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 160 15% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 160 20% 4%;
+
+    --secondary: 160 15% 12%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 160 10% 15%;
+    --muted-foreground: 160 5% 60%;
+
+    --accent: 160 84% 39%;
+    --accent-foreground: 160 20% 4%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 160 10% 20%;
+    --input: 160 10% 20%;
+    --ring: 160 84% 39%;
+
+    --sidebar-background: 160 15% 6%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 160 84% 39%;
+    --sidebar-primary-foreground: 160 20% 4%;
+    --sidebar-accent: 160 10% 15%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 160 10% 20%;
+    --sidebar-ring: 160 84% 39%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-emerald-400 bg-clip-text text-transparent;
+  }
+}
