@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { AnimatedHeroText } from "./AnimatedHeroText";
 import { PhoneMockup } from "./PhoneMockup";
 import { Play, MessageCircle, Star } from "lucide-react";
 
@@ -19,13 +20,7 @@ export const HeroSection = () => {
               <span className="text-sm font-bold text-white">Vendas 24 horas por dia, 7 dias por semana, com WhatsApp</span>
             </div>
 
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-              Mais clientes, mais vendas
-              <br />
-              <span className="text-gradient">24 horas por você</span>
-              <br />
-              <span className="text-foreground/80">Simples assim</span>
-            </h1>
+            <AnimatedHeroText />
 
 	            <p className="text-lg text-muted-foreground max-w-xl mx-auto">
               O <span className="text-primary font-semibold">Nexzo Vendas</span> é um robô inteligente com <span className="text-white font-medium">áudio humanizado</span>, <span className="text-white font-medium">análise de sentimento</span>, <span className="text-white font-medium">agendamento de reuniões</span>, <span className="text-white font-medium">envio de mensagens em massa</span> e <span className="text-white font-medium">prospecção de clientes</span>.

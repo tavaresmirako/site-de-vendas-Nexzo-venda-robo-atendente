@@ -28,8 +28,8 @@ const features = [
   },
   {
     icon: MessageSquare,
-    title: "Conversas Humanizadas",
-    description: "Respostas naturais que seus clientes não percebem que é um robô.",
+    title: "Mensagem em Massa",
+    description: "Alcance 100 novos clientes imediatamente! Inclui 100 leads de prospecção grátis para você começar a vender na hora.",
   },
 ];
 
