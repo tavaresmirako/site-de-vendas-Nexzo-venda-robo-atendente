@@ -6,17 +6,17 @@ const dashboardFeatures = [
   {
     icon: BarChart3,
     title: "Análise em Tempo Real",
-    description: "Acompanhe todas as métricas de vendas e atendimento em tempo real.",
+    description: "Acompanhe todas as métricas de atendimento em tempo real.",
   },
   {
     icon: Users,
     title: "Gestão de Clientes",
-    description: "Visualize e gerencie todos os seus clientes em um único lugar.",
+    description: "Visualize o número de atendimentos, agendamentos e probabilidade de leads.",
   },
   {
     icon: MessageSquare,
-    title: "Histórico de Conversas",
-    description: "Acesse o histórico completo de todas as conversas com seus clientes.",
+    title: "Vendas",
+    description: "Probabilidade e desempenho de vendas mensal.",
   },
   {
     icon: TrendingUp,
