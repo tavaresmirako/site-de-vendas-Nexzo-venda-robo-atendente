@@ -3,7 +3,7 @@ import { AnimatedHeroText } from "./AnimatedHeroText";
 import { PhoneMockup } from "./PhoneMockup";
 import { Play, MessageCircle, Star } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/5511999999999?text=Olá! Quero saber mais sobre o Nexzo";
+const WHATSAPP_LINK = "https://wa.me/5521971366137?text=Olá!%20Gostei%20de%20do%20robo%20";
 
 export const HeroSection = () => {
   return (
