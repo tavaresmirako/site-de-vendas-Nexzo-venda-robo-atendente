@@ -1,4 +1,5 @@
 import { BarChart3, Users, MessageSquare } from "lucide-react";
+import { DashboardModal } from "./DashboardModal";
 
 const dashboardFeatures = [
   {
@@ -51,15 +52,18 @@ export const DashboardSection = () => {
             ))}
           </div>
 
-          {/* Right - CTA */}
+          {/* Right - Dashboard Image */}
           <div className="flex flex-col items-center justify-center gap-6">
-            <div className="w-full rounded-2xl border-2 border-border overflow-hidden group hover:border-primary transition-all duration-300 shadow-2xl">
-              <img 
-                src="/dashboard-preview.png" 
-                alt="Dashboard Nexzo Elite" 
-                className="w-full h-auto object-cover"
-              />
-            </div>
+            <DashboardModal dashboardImage="/assets/dashboard.webp">
+              <div className="w-full overflow-hidden rounded-2xl border-2 border-border hover:border-primary transition-all duration-300 shadow-2xl cursor-pointer group">
+                <img 
+                  src="/assets/dashboard.webp" 
+                  alt="Dashboard de Atendimento Nexzo" 
+                  className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
+                />
+              </div>
+            </DashboardModal>
           </div>
         </div>
 
