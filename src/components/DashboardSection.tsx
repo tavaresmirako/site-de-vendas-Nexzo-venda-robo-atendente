@@ -53,11 +53,12 @@ export const DashboardSection = () => {
 
           {/* Right - CTA */}
           <div className="flex flex-col items-center justify-center gap-6">
-            <div className="w-full aspect-video bg-gradient-to-br from-primary/20 via-card to-background rounded-2xl border-2 border-border flex items-center justify-center group hover:border-primary transition-all duration-300">
-              <div className="text-center">
-                <BarChart3 className="h-16 w-16 text-primary/60 mx-auto mb-4 group-hover:text-primary transition-colors" />
-                <p className="text-muted-foreground font-semibold">Seu dashboard aqui</p>
-              </div>
+            <div className="w-full rounded-2xl border-2 border-border overflow-hidden group hover:border-primary transition-all duration-300 shadow-2xl">
+              <img 
+                src="/dashboard-preview.png" 
+                alt="Dashboard Nexzo Elite" 
+                className="w-full h-auto object-cover"
+              />
             </div>
           </div>
         </div>

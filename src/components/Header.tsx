@@ -37,7 +37,7 @@ export const Header = () => {
               Suporte
             </button>
           </SupportModal>
-          <DashboardModal>
+          <DashboardModal dashboardImage="/dashboard-preview.png">
             <button 
               className="px-4 py-2 rounded-full text-foreground font-bold hover:bg-foreground/10 transition-all duration-300 flex items-center gap-2"
             >

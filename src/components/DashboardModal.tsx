@@ -21,7 +21,7 @@ export const DashboardModal = ({ children, dashboardImage }: DashboardModalProps
       <DialogTrigger asChild>
         {children}
       </DialogTrigger>
-      <DialogContent className="sm:max-w-2xl">
+      <DialogContent className="sm:max-w-4xl">
         <DialogHeader>
           <DialogTitle className="text-xl font-bold flex items-center gap-2">
             <BarChart3 className="h-5 w-5" />
