@@ -1,6 +1,4 @@
-import { BarChart3, TrendingUp, Users, MessageSquare } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { DashboardModal } from "./DashboardModal";
+import { BarChart3, Users, MessageSquare } from "lucide-react";
 
 const dashboardFeatures = [
   {
@@ -17,11 +15,6 @@ const dashboardFeatures = [
     icon: MessageSquare,
     title: "Vendas",
     description: "Probabilidade e desempenho de vendas mensal.",
-  },
-  {
-    icon: TrendingUp,
-    title: "Relatórios de Vendas",
-    description: "Gere relatórios detalhados sobre o desempenho de vendas.",
   },
 ];
 
@@ -66,11 +59,6 @@ export const DashboardSection = () => {
                 <p className="text-muted-foreground font-semibold">Seu dashboard aqui</p>
               </div>
             </div>
-            <DashboardModal>
-              <Button className="w-full text-white font-bold py-6 text-lg">
-                Ver Dashboard Completo
-              </Button>
-            </DashboardModal>
           </div>
         </div>
 
