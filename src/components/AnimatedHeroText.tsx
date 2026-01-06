@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const PHRASES = [
   { text: "Mais clientes, mais vendas", className: "text-foreground" },
+  { text: "monitoramento do seu atendimento", className: "text-foreground" },
   { text: "24 horas por você", className: "text-gradient" },
   { text: "Simples assim", className: "text-foreground/80" },
 ];
